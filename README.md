@@ -75,6 +75,7 @@ Follow these steps to set up this repository and use GraphRag with local models 
     
 9. **Initialize the ./ragtest folder to create the required files:**
     ```bash
+    pip install future
     python -m graphrag.index --init --root ./ragtest
     ```
 
